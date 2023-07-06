@@ -1,0 +1,112 @@
+<html>
+<head>
+<title>FORM</title>
+
+
+
+<!--Form-->
+<!--Login forms all website have forms-->
+
+<form><!--form tag to create forms-->
+<div>
+<label>Enter Firstname</label><!--label tag to create heading like div-->
+<input type = "text" name = "firstName" placeholder = "Enter Firstname"><!--input tag is used to create a space to enter input , type is attribute-->
+</div>
+<div>
+<label>Enter LastName</label>
+<input type = "text" name = "lastName" placeholder = "Enter LastName"><!--name is used to give a name for it with block--><!--user have to enter a value-->
+</div>
+<!--email-->
+<div>
+<label>Enter EmailID </label>
+<input type = "email" name = "email" placeholder = "Enter EmailID">   <!-- for email use type as email-->
+</div>
+<!--should give type and name to enter a value if u give type a text box appears to enter text , password etc-->
+<!--placeholder is used to give inside text box , simply for reference ,when u type it dissappears-->
+<div>
+<label>Password</label>
+<input type = "password" name = "password" placeholder = "Enter Password"> <!-- should give type as password so that password will not be visible it will be visible like dots-->
+</div>
+
+<div>
+<label>gender</label><!--in gender we are going to select one option-->
+<input type = "radio" name = "gender">Male<!--type radio is used when we want to select options, they appears as option and we can select one-->
+<input type = "radio" name = "gender">Female<!--when u want to select only one option out of three use name = "label name"-->
+<input type = "radio" name = "gender">Others
+</div>
+
+<div>
+<label>Year Of PassOut</label><!--when u want to select many options dont use name-->
+<input type = "radio">2023
+<input type = "radio">2022
+<input type = "radio">2021
+</div>
+
+<!--city-->
+<div>
+<label>Select City</label>
+<select>
+<option>Banglore</option><!--when u want to select cities from many which appears in horizontal column which can be dragged down use select and option tag-->
+<option>Hassan</option>
+<option>Tumkur</option>
+<option>Tiptur</option>
+</select>
+</div>
+
+<div>
+<!--date-->
+<label>Date Of Birth</label><!-- when u want to enter date use type as date-->
+<input type = "date" name = "dateOfBirth">
+</div>
+
+<button type = "submit">Register</button><!-- button tag is used to create button ,types are many like submit which submits all entry , reset which resets all 
+the entries etc -->
+<button type = "reset">Reset </button>
+
+
+<!-- output when u click on register - file:///C:/Users/rathn/OneDrive/Desktop/GitHub/html/form.html?firstName=rathna&lastName=b+m&email=rathnarani868%40gmail.com&password=rathnamohan19&gender=on&dateOfBirth=2001-09-19-->
+<!-- u will get output in URL with all ur entries -->
+
+<button type = "button">Register</button>
+<!-- the values wont get changed even after u click register , but before giving type submit the values would disappear-->
+<!--output entries wont disappear-->
+<!--Enter Firstname 
+rathna
+Enter LastName 
+b m
+Enter EmailID 
+rathnarani868@gmail.com
+Password 
+••••
+gender Male Female Others
+Year Of PassOut 2023 2022 2021
+Select City 
+Banglore
+Date Of Birth 
+12-07-2023
+Register Reset Register-->
+
+
+<!--Select couses-->
+<!--JAVA , HTML , SQL-->
+<!--type checkbox-->
+<!--add field address , Mobile Number , upload file-->
+
+
+<!--create new github repository  username.github.io - public  -->
+
+<div>
+<label>Select Courses</label>
+<input type = "checkbox">JAVA
+<input type = "checkbox">HTML
+<input type = "checkbox">SQL
+</div>
+<!--Select Courses JAVA[box] HTML[box] SQL[box]-->
+
+</form>
+
+
+
+
+</body>
+</html>
