@@ -1,0 +1,93 @@
+<!-- CSS cascading style sheets
+Design the webpage and alignment
+
+Syntax of CSS
+
+selector{
+ property : value
+ }
+ 
+ ex: h1{
+       color : blue ;
+	   }
+	 This syntax should be written inside <style> tag.<style> tag is written under <head> tag.
+	 
+ Selector
+Different Selector 
+1.Element Selector
+2.Grouping Selector- grouping of element selectors.
+ex : h1 , h2 {
+color:blue;
+size:70px;
+
+3.Class Selector 
+ex: <h1 class = "heading">
+.heading{
+color : red;
+}
+
+4.Id selector
+
+
+
+ 
+	 
+-->
+	 
+<html>
+<head>
+<title>CSS</title>
+<style>
+/*h1 - element selector */
+h1{                   
+color:blue;
+font-size:80px;
+}
+h2{
+color:purple;
+font-size:50px;
+}
+h3,h4{                       /* Using element selector we can group elements having same style*/
+color:yellow;
+font-size:90px;
+}
+.heading{
+color:red;
+}
+#headingFontSize{
+font-size :20px;
+}
+body{
+background-color : orange;                                                         /* to add a background color */
+background-image: url('C:\\Users\\rathn\\OneDrive\\Desktop\\GitHub\\html\\IMG20191020151025.jpg');
+background-size : cover;
+background-repeat:no-repeat;
+}
+
+
+
+</style>
+</head>
+
+<body>
+<h1>Registatrion Form </h1>
+<h2>Signin Form </h2>
+
+<h3> Cascading Style Sheets</h3>
+<h4>Used to Design</h4>
+
+<h1 class = "heading">what is github page/ </h1>
+<h1 class = "heading" id = "headingFontSize">Difference between method and constructor</h1>
+
+
+</body>
+
+</html>
+
+
+<!--Priority between Selector 
+Id selector 
+Class selector 
+Element Selector-->
+
+
